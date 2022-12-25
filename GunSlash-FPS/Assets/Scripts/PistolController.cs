@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PistolController : MonoBehaviour
 {
+    public GameObject Hand;
+    
+    
     RaycastHit hit;
 
     public Vector3 offset;
@@ -29,22 +32,31 @@ public class PistolController : MonoBehaviour
             //hit.point Raycastin çarptýðý *Noktanýn* vector3 bilgilerini tutar.
             //transform.LookAt fonksiyonu ise bakacaðý yönü ayarlamaya yarar.
 
-            transform.LookAt(hit.point);
-            transform.rotation *= Quaternion.Euler(offset);
+            Hand.transform.LookAt(hit.point);
+            Hand.transform.rotation *= Quaternion.Euler(offset);
         }
 
+        //Cooldown
         if (cooldown>0)
         {
             cooldown -= Time.deltaTime;
         }
 
+
         //FÝRE
         if (Input.GetMouseButtonDown(0)&& cooldown<=0)
         {
+            //Create Bullet
             Instantiate(bullet,firePoint.position,transform.rotation* Quaternion.Euler(90,0,0));
+            
+            //Cooldown Reset
             cooldown = 1f;
 
+            //Fire Sound
             GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>().PlayOneShot(gunShot);
+
+            //Animations
+            GetComponent<Animator>().SetTrigger("shot");
         }
     }
 }
