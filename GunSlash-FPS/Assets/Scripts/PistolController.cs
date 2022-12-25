@@ -47,10 +47,10 @@ public class PistolController : MonoBehaviour
         if (Input.GetMouseButtonDown(0)&& cooldown<=0)
         {
             //Create Bullet
-            Instantiate(bullet,firePoint.position,transform.rotation* Quaternion.Euler(90,0,0));
+            Instantiate(bullet,transform.position,transform.rotation* Quaternion.Euler(90,0,0));
             
             //Cooldown Reset
-            cooldown = 1f;
+            cooldown = 0.30f;
 
             //Fire Sound
             GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>().PlayOneShot(gunShot);

@@ -60,8 +60,9 @@ public class PlayerMovement : MonoBehaviour
         //Jump and Gravity Check
         if (!isGrounded)
         {
+            speed = Mathf.Lerp(speed, jumpSpeed, 1f*Time.deltaTime); //Mathf.Lerp fonksiyonu verilen iki deðer arasýnda belirlediðimiz süre içerisinde artma veya azalmayý gerçekleþtirir.
             velocity.y += gravity * Time.deltaTime/ gravityControl;
-            speed = jumpSpeed;
+            
         }
         else
         {
