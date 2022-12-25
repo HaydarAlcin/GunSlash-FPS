@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 94331272}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 354616870}
   - component: {fileID: 354616869}
   - component: {fileID: 354616872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 666346766}
   - component: {fileID: 666346768}
   - component: {fileID: 666346769}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -724,6 +724,9 @@ MonoBehaviour:
   obstacle:
     serializedVersion: 2
     m_Bits: 64
+  player_layer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!120 &916197889
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -893,14 +896,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916197887}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.45, y: 4.166, z: 4.7988}
+  m_LocalRotation: {x: 0.16675098, y: -0, z: -0, w: 0.98599905}
+  m_LocalPosition: {x: -19.45, y: 3.2047777, z: 5.4310985}
   m_LocalScale: {x: 0.37592024, y: 0.36576578, z: 0.08892875}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.198, y: 0, z: 0}
 --- !u!1 &978046530
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 978046531}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CheckGround
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -1295,10 +1298,20 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.0019
       objectReference: {fileID: 0}
+    - target: {fileID: 4802226427384040515, guid: 36e70da1d35774149985e7770bcebac3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7482792873320127437, guid: 36e70da1d35774149985e7770bcebac3,
         type: 3}
       propertyPath: m_Name
       value: pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 7482792873320127437, guid: 36e70da1d35774149985e7770bcebac3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7717289221716220354, guid: 36e70da1d35774149985e7770bcebac3,
         type: 3}

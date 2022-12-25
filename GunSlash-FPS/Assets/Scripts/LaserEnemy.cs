@@ -6,7 +6,7 @@ public class LaserEnemy : MonoBehaviour
 {
     RaycastHit hit;
 
-    public LayerMask obstacle;
+    public LayerMask obstacle, player_layer;
    
     void Update()
     {
@@ -23,6 +23,11 @@ public class LaserEnemy : MonoBehaviour
         else
         {
             GetComponent<LineRenderer>().enabled = false;
+        }
+
+        if (Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity, player_layer))
+        {
+            Destroy(hit.transform.gameObject);
         }
     }
 }
