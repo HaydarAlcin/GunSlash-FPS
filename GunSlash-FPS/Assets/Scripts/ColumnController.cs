@@ -21,7 +21,8 @@ public class ColumnController : MonoBehaviour
 
         if (broke)
         {
-            velocity.z -= Time.deltaTime/300;
+            //translate fonksiyonunda z ekseni yukarý eksen olduðundan velocity vektörünün z sini düþürüyoruz.
+            velocity.z -= Time.deltaTime/1000;
             transform.Translate(velocity);
         }
     }
