@@ -50,7 +50,7 @@ public class PistolController : MonoBehaviour
             Instantiate(bullet,transform.position,transform.rotation* Quaternion.Euler(90,0,0));
             
             //Cooldown Reset
-            cooldown = 0.30f;
+            cooldown = 0.50f;
 
             //Fire Sound
             GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>().PlayOneShot(gunShot);

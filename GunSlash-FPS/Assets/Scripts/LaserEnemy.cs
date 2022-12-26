@@ -5,8 +5,13 @@ using UnityEngine;
 public class LaserEnemy : MonoBehaviour
 {
     RaycastHit hit;
-
     public LayerMask obstacle, player_layer;
+
+
+    public GameObject deathParticleEffect;
+
+    //Lazerin kalýnlýðýný editör üzerinden deðiþtirmek için oluþturduðumuz deðiþken
+    public float laser_multipler;
    
     void Update()
     {
@@ -17,7 +22,7 @@ public class LaserEnemy : MonoBehaviour
             GetComponent<LineRenderer>().SetPosition(0, transform.position);
             GetComponent<LineRenderer>().SetPosition(1, hit.point);
 
-            GetComponent<LineRenderer>().startWidth = 0.05f + Mathf.Sin(Time.time)/25;
+            GetComponent<LineRenderer>().startWidth = 0.025f*laser_multipler + Mathf.Sin(Time.time)/25;
         }
 
         else
@@ -25,9 +30,11 @@ public class LaserEnemy : MonoBehaviour
             GetComponent<LineRenderer>().enabled = false;
         }
 
+
+        //Kill Player
         if (Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity, player_layer))
         {
-            Destroy(hit.transform.gameObject);
+            hit.transform.gameObject.GetComponent<PlayerDeathManager>().Death();
         }
     }
 }
