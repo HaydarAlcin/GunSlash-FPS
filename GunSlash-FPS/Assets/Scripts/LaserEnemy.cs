@@ -37,4 +37,5 @@ public class LaserEnemy : MonoBehaviour
             hit.transform.gameObject.GetComponent<PlayerDeathManager>().Death();
         }
     }
+
 }

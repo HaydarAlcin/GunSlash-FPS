@@ -9,8 +9,10 @@ public class ColumnController : MonoBehaviour
 
     Vector3 velocity;
 
+    //Uzunluk
     public float verticles;
 
+    //oyun baþladýðýnda direkt aþaðý inmesin diye oluþturduðumuz bool deðiþkeni
     bool broke = false;
     private void Update()
     {
@@ -22,7 +24,7 @@ public class ColumnController : MonoBehaviour
         if (broke)
         {
             //translate fonksiyonunda z ekseni yukarý eksen olduðundan velocity vektörünün z sini düþürüyoruz.
-            velocity.z -= Time.deltaTime/1000;
+            velocity.z -= Time.deltaTime/100;
             transform.Translate(velocity);
         }
     }

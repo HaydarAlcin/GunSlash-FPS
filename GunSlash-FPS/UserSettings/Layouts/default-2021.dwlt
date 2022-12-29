@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 12031
+  controlID: 408
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 12037
+  controlID: 409
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,8 +379,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.599976}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.599976}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -571,9 +571,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -29.143091, y: -16.058876, z: 107.4684}
+    m_Target: {x: 697.97833, y: 87.49422, z: -823.93506}
     speed: 2
-    m_Value: {x: -29.143091, y: -16.058876, z: 107.4684}
+    m_Value: {x: 697.97833, y: 87.49422, z: -823.93506}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -620,13 +620,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1795246, y: 0.26970756, z: -0.051255047, w: -0.94467133}
+    m_Target: {x: 0.13957126, y: 0.22168984, z: 0.032079518, w: -0.96457815}
     speed: 2
-    m_Value: {x: -0.17952459, y: 0.26970753, z: -0.051255044, w: -0.94467133}
+    m_Value: {x: 0.13961458, y: 0.22023539, z: 0.031869065, w: -0.96487755}
   m_Size:
-    m_Target: 39.955227
+    m_Target: 142.93706
     speed: 2
-    m_Value: 39.955227
+    m_Value: 136.78188
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -684,14 +684,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 6945529359074419159, guid: fcbe34e1e4ba4b14b8cf3fe9e31444ba, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.6003073
+    - e00: 0.525379
       e01: 0
       e02: 0
-      e03: -40.516174
+      e03: -76.96686
       e10: 0
-      e11: 0.6003073
+      e11: 0.525379
       e12: 0
-      e13: 209.69853
+      e13: 211.0929
       e20: 0
       e21: 0
       e22: 1
@@ -750,9 +750,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3a9ffdff30fbffff70670000
+      m_SelectedIDs: 92670000
+      m_LastClickedID: 26514
+      m_ExpandedIDs: 30fbffffbe670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -818,22 +818,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 51
+  m_StartGridSize: 56
   m_LastFolders:
-  - Assets/Prefabs
-  m_LastFoldersGridSize: 51
+  - Assets/Scripts
+  m_LastFoldersGridSize: 56
   m_LastProjectPath: "D:\\Kullan\u0131c\u0131lar\\Haydar\\Belgeler\\Github\\GunSlash-FPS\\GunSlash-FPS"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc690000
-    m_LastClickedID: 27084
-    m_ExpandedIDs: 00000000446800004668000048680000
+    m_SelectedIDs: 546a0000
+    m_LastClickedID: 27220
+    m_ExpandedIDs: 00000000ca680000cc680000ce680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -861,7 +861,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000446800004668000048680000
+    m_ExpandedIDs: 00000000ca680000cc680000ce680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,7 +914,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 51
+    m_GridSize: 56
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
 --- !u!114 &16
