@@ -79,14 +79,16 @@ public class EnemyDroneManager : MonoBehaviour
 
     private void Shot()
     {
+        
         if (cooldown>0)
         {
+           
             cooldown -= Time.deltaTime;
         }
 
         else
         {
-            cooldown = 2f;
+            cooldown = Random.Range(1.8f, 3f);
 
             //Shot
             transform.GetChild(0).GetComponent<Animator>().SetTrigger("shot");
