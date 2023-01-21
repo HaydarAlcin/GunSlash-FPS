@@ -128,7 +128,7 @@ PrefabInstance:
     - target: {fileID: 7690215306601799216, guid: a933c693d56fd5340b617a030ad67a40,
         type: 3}
       propertyPath: laser_multipler
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7690215306601799219, guid: a933c693d56fd5340b617a030ad67a40,
         type: 3}
@@ -228,7 +228,7 @@ PrefabInstance:
     - target: {fileID: 7690215306601799216, guid: a933c693d56fd5340b617a030ad67a40,
         type: 3}
       propertyPath: laser_multipler
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7690215306601799219, guid: a933c693d56fd5340b617a030ad67a40,
         type: 3}
