@@ -19,6 +19,7 @@ public class LaserEnemy : MonoBehaviour
         {
             GetComponent<LineRenderer>().enabled=true;
 
+            //Olusturulan isinin ilk noktasini ve ikinci noktasinin verildigi kisim.
             GetComponent<LineRenderer>().SetPosition(0, transform.position);
             GetComponent<LineRenderer>().SetPosition(1, hit.point);
 

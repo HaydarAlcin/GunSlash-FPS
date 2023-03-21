@@ -12,18 +12,18 @@ public class GameManager : MonoBehaviour
     }
     public void StartButton() {
 
-        SceneManager.LoadScene("MainLevel");
+        SceneManager.LoadScene(1);
    }
 
     public void RestartButton()
     {
 
-        SceneManager.LoadScene("MainLevel");
+        SceneManager.LoadScene(1);
     }
 
     public void HomeButton()
     {
 
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(0);
     }
 }

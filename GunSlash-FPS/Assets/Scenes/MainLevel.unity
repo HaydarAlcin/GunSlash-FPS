@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09983551, g: 0.09676507, b: 0.074094646, a: 1}
+  m_IndirectSpecularColor: {r: 0.066041976, g: 0.057377346, b: 0.036177978, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2221,6 +2221,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5112278990101453033, guid: 99e4a46813c479a43965334d7eb932a5,
+        type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5112278990101453034, guid: 99e4a46813c479a43965334d7eb932a5,
         type: 3}
       propertyPath: m_RootOrder
@@ -29156,6 +29161,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5112278990101453033, guid: 99e4a46813c479a43965334d7eb932a5,
+        type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5112278990101453034, guid: 99e4a46813c479a43965334d7eb932a5,
         type: 3}
       propertyPath: m_RootOrder
@@ -44915,14 +44925,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431166156}
-  m_LocalRotation: {x: -0.05831106, y: -0.15409306, z: 0.20794864, w: 0.9641642}
+  m_LocalRotation: {x: -0.08252299, y: -0.14881857, z: 0.21175551, w: 0.9623942}
   m_LocalPosition: {x: 0, y: 16.12, z: -2.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -2.772, y: -18.77, z: 24.8}
+  m_LocalEulerAnglesHint: {x: -5.498, y: -18.837, z: 25.731}
 --- !u!114 &1431166159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64970,6 +64980,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5112278990101453033, guid: 99e4a46813c479a43965334d7eb932a5,
+        type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5112278990101453034, guid: 99e4a46813c479a43965334d7eb932a5,
         type: 3}
       propertyPath: m_RootOrder
@@ -67626,6 +67641,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5112278990101453033, guid: 99e4a46813c479a43965334d7eb932a5,
+        type: 3}
+      propertyPath: speed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5112278990101453034, guid: 99e4a46813c479a43965334d7eb932a5,
         type: 3}
       propertyPath: m_RootOrder
